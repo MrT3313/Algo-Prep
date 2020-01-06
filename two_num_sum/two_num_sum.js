@@ -7,12 +7,10 @@ function two_num_sum_NAIVE (array, targetSum) {
         console.log(`${index} : ${element}`)
 
         // Second Loop
-        for (let i = array.indexOf(element) +1; i < array.length; i++ ) {
+        for (let i = array.indexOf(element) + 1; i < array.length; i++ ) {
             console.log(array[i])
 
             // If Conditional
-            console.log(element)
-            console.log(array[i])
             console.log(element, array[i])
 
             if (element + array[i] === targetSum) {
