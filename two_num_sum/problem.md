@@ -17,7 +17,9 @@ Assume that there will be at most one pair of numbers summing up to the target s
 Time = O(n^2)
 Space = O(1)
 
-4.1:  Personal - Pseudo_1
+4.1:  Personal - Regular Array
+Time = O(n)
+Space = O(n)
 - get first number
 - subtract first number from target number --> what number are you looking for
 - see if the array includes that number 
@@ -25,6 +27,8 @@ Space = O(1)
 - if no -- move to second item in array
 
 4.2: Video Solution - Hash Tables
+Time = O(n)
+Space = O(n)
 
 4.3:  Video Solution - Sorted Array 
 ** BEST SOLUTION **
