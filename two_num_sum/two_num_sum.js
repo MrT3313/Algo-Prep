@@ -58,7 +58,7 @@ function two_num_sum__SortedArray(array, targetSum) {
     // Variables
     let L_pointer = undefined
     let R_pointer = undefined
-    let result = undefined
+    let result = []
 
     // Sort Array
     array.sort((a,b) => {
@@ -92,3 +92,5 @@ function two_num_sum__SortedArray(array, targetSum) {
 
 return result}
 console.log(two_num_sum__SortedArray([3,5,-4,8,11,1,-1,6], 10))
+// console.log(two_num_sum__SortedArray([-21,301,12,4,65,56,210,356,9,-47], 164))
+
