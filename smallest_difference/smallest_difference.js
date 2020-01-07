@@ -48,7 +48,8 @@ function smallestDifference(arrayOne, arrayTwo) {
         } else if (l_num > r_num){
             r_pointer += 1
         } else {
-            return [l_num, r_num]
+            smallestPair = [l_num, r_num]
+            return smallestPair
         }
     }
 return smallestPair}
