@@ -1,0 +1,9 @@
+- inserting
+- searching
+- deletion 
+    - easy = node with single child 
+    - hard = node with two children
+        - node_selected
+            - find SMALLEST number in right subtree of node_selected
+            - replace value of node_selected w/ SMALLEST number node
+                - delete smallest node after you have replace the value
