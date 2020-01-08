@@ -1,0 +1,3 @@
+- every string in array has longest string chain --> at the "head" of the chain 
+    - sort by length shortest to longest
+    - once you come across a string chain LATER you know you have ALREADY calculated that 'head' of its own chain 

@@ -1,7 +1,9 @@
+// - 1 - // ❌
 function lartest_range_NAIVE() {
 
 }
 
+// - 2 - // ✅
 function largest_range(array) {
     // Variables
     bestRange = []
