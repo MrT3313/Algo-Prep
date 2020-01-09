@@ -21,7 +21,7 @@ test.insert(1)
 console.log(test)
 
 // FUNCTIONS
-// - 1 - // IN ORDER
+// - 1 - // IN ORDER ✅
 function inOrderTraverse(tree, array) {
     if (tree !== null) {
         inOrderTraverse(tree.left, array)
@@ -32,7 +32,7 @@ function inOrderTraverse(tree, array) {
 }
 console.log(inOrderTraverse(test, []))
 
-// - 2 - // PRE ORDER
+// - 2 - // PRE ORDER ✅
 function preOrderTraverse(tree, array) {
     if (tree !== null) {
         array.push(tree.value)
@@ -43,7 +43,7 @@ function preOrderTraverse(tree, array) {
 }
 console.log(preOrderTraverse(test, []))
 
-// - 3 - // POST ORDER
+// - 3 - // POST ORDER ✅
 function postOrderTraverse(tree, array) {
     if (tree !== null) {
         postOrderTraverse(tree.left, array) 

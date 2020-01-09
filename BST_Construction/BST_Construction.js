@@ -1,6 +1,6 @@
 // - 1 - // ✅
 class BST {
-    // - 1 - // CONSTRUCTOR
+    // - 1 - // CONSTRUCTOR ✅
     constructor(value) {
         this.value = value
         this.left = null
@@ -8,7 +8,8 @@ class BST {
     }
 
     // - 2 - // METHODS
-    insert(value) {
+    // - 2.1 - // Insert ✅
+    insert(value) { 
         // *** V1 *** //
         if (value < this.value) {
             if (this.left === null) {
@@ -26,7 +27,8 @@ class BST {
         return this
     }
 
-    contains(value) {
+    // - 2.2 - // Contains ✅
+    contains(value) { 
         // *** V1 *** //
         if (value < this.value) {
             if (this.left === null) {
@@ -45,7 +47,8 @@ class BST {
         }
     }
 
-    remove(value, parent = null) {
+    // - 2.3 - // Remove ✅
+    remove(value, parent = null) { 
         // *** V1 *** //
         if (value < this.value) {
             if (this.left !== null) {
@@ -83,7 +86,8 @@ class BST {
     }
 
     // HELPER METHODS
-    getMinValue() {
+    // - 2.4 - // Get Minimum Value ✅
+    getMinValue() { 
         // *** V1 *** //
         if (this.left === null ) {
             return this.value

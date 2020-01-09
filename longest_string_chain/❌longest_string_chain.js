@@ -1,5 +1,5 @@
-// - 1 - // ❌
-// - 1.1 - //
+// - 1 - // 
+// - 1.1 - // ❌
 function longestStringChain(strings) {
     // Variables
     stringChains_hashTable = {}
@@ -26,7 +26,7 @@ function longestStringChain(strings) {
     }
 }
 
-// - 1.2 - //
+// - 1.2 - // ❌
 function findLongestStringChain(string, stringChains_hashTable) {
     // loop through the index's of string
     for (i in string) {
