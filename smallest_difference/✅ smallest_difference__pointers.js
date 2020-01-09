@@ -1,21 +1,5 @@
+// Status: ✅
 
-// - 1 - // ❌
-function smallestDifference__NAIVE( arrayOne, arrayTwo) {
-    console.log(arrayOne)
-    console.log(arrayTwo)
-
-    // Variables
-    let l_pointer = 0
-    let r_pointer = 0
-    let result = []
-
-    // 
-
-
-return result}
-// smallestDifference__NAIVE([-1, 5, 10, 20, 28, 3],[26, 134, 135, 15, 17]) // [28, 26]
-
-// - 2 - // ✅
 function smallestDifference(arrayOne, arrayTwo) {
     
     // SORT 
@@ -57,6 +41,3 @@ return smallestPair}
 
 // console.log(smallestDifference([-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17]))
 smallestDifference([-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17])
-
-
-

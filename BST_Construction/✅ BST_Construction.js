@@ -1,4 +1,5 @@
-// - 1 - // ✅
+// Status: ✅
+
 class BST {
     // - 1 - // CONSTRUCTOR ✅
     constructor(value) {

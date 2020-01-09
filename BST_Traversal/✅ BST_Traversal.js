@@ -1,3 +1,5 @@
+// Status: ✅
+
 // IMPORTS
 /* Binary Search Tree from BST_Construction problem 
     Methods:
@@ -5,7 +7,7 @@
         - contains
         - removes
 */ 
-const BST = require('../BST_Construction/BST_Construction.js')
+const BST = require('../BST_Construction/✅ BST_Construction.js/index.js')
 
 // SETUP
 /* Create Initial BST for problem
