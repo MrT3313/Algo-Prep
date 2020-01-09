@@ -71,9 +71,10 @@ class BST {
                 } else {
                     this.value = null
                 }
-            } else if (parent.left == this) {
+
+            } else if (parent.left === this) {
                 parent.left = this.left !== null ? this.left : this.right
-            } else if (parent.right == this ) {
+            } else if (parent.right === this ) {
                 parent.right = this.left !== null ? this.left : this.right
             }
         }
