@@ -1,3 +1,4 @@
+// - 1 - // ✅
 class BST {
     // - 1 - // CONSTRUCTOR
     constructor(value) {
@@ -92,13 +93,18 @@ class BST {
     }
 }
 
-let test_BST_class = new BST(12)
-console.log(test_BST_class)
+// - EXPORTS - // 
+module.exports = BST
 
-test_BST_class.insert(8)
-test_BST_class.insert(13)
-test_BST_class.insert(16)
+// - Testing - //
+// TODO: Make more formal testing
+// let test_BST_class = new BST(12)
+// console.log(test_BST_class)
 
-console.log(test_BST_class)
-console.log(test_BST_class.contains(13))
-console.log(test_BST_class.contains(11))
+// test_BST_class.insert(8)
+// test_BST_class.insert(13)
+// test_BST_class.insert(16)
+
+// console.log(test_BST_class)
+// console.log(test_BST_class.contains(13))
+// console.log(test_BST_class.contains(11))
