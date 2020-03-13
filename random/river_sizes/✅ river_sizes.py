@@ -1,6 +1,7 @@
 def riverSizes(matrix):
     sizes = []
     visited = [[False for value in row] for row in matrix]
+    print(visited)
 
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
