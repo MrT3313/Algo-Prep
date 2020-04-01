@@ -1,0 +1,1 @@
+Q: Is it sorted? 
