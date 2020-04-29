@@ -13,7 +13,7 @@ Goal: Complete Each Question with Javascript/Typescript & Python
 | 1     | Depth First Search        | Stack                                 |                                           |
 | 2     | Breadth First Search      | Queue                                 |                                           |
 | 3     | Matching Brackets         | Stack                                 |                                           |
-| 4     |                           | Hash Table / Memoization / Caching    |                                           |
+| 4     |                           | Hash Table                            | Memoization / Caching                     |
 | 5     |                           |                                       | Manipulate Multiple Pointers              | 
 | 6     |                           |                                       | Reverse Linked List ^^                    |
 | 7     |                           |                                       | Sorting Fundamentals                      |
