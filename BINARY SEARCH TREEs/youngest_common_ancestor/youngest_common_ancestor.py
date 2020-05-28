@@ -1,5 +1,11 @@
+# This is an input class. Do not edit.
+class AncestralTree:
+    def __init__(self, name):
+        self.name = name
+        self.ancestor = None
+
+
 def getYoungestCommonAncestor(topAncestor, descendantOne, descendantTwo):
-    # Write your code here.
     depthOne = getDepth(descendantOne, topAncestor)
     depthTwo = getDepth(descendantTwo, topAncestor)
 
