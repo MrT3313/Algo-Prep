@@ -1,0 +1,3 @@
+- Finding Strings
+- Searching Strings
+- Matching Strings
