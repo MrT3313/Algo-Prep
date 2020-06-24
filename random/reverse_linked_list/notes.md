@@ -1,0 +1,2 @@
+- 3 pointers
+- Shifting order MATTERS cant lose reference to other nodes
