@@ -19,5 +19,5 @@ def balancedBrackets(string):
             if stack[-1] == matchingBrackets[char]:
                 stack.pop()
 			else:
-				return False
+			    return False
     return len(stack) == 0 
