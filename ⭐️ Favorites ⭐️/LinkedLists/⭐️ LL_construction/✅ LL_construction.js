@@ -191,13 +191,18 @@ class LinkedList {
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
+// Initialization
 let insertTest = new LinkedList()
+
+// Generic Insert
 insertTest.insert(new Node(10))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(20))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(30))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+
+// Value Insert
 insertTest.insert(new Node(40), val=20, idx=null, position='after')
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(40), val=5000, idx=null, position='after')
@@ -212,10 +217,17 @@ insertTest.insert(new Node(80), val=30, idx=null, position='after')
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(90), val=80, idx=null, position='before')
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+
+// Index Insert
+// ... 
+
+// SetHead & SetTail
 insertTest.setHead(new Node(100))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.setTail(new Node(110))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+
+// Remove
 insertTest.remove(val=50, idx=null)
 insertTest.remove(val=20, idx=null)
 insertTest.remove(val=70, idx=null)

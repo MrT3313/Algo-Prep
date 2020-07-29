@@ -54,9 +54,7 @@ function balancedBrackets(STRING_brackets, debug=false) {
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
-
 // Setup Input
-// - 1 - TRUE
 STRING_brackets_1 = '({[]}){()}'
 STRING_brackets_2 = '[()]{}{[()()]()}'
 STRING_brackets_3 = '([{]})'

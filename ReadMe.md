@@ -10,8 +10,3 @@ Goal: Complete Each Question with Javascript/Typescript & Python
     ✅ - Completed  
     🔸 - Not Started  
     ❌ - Not Completed  
-
-# Main Problems
-| Problem Name      | Data Structures | 
-| ---               | ---             |
-| Balanced Brackets | Stack           |
