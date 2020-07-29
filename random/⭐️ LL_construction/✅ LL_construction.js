@@ -152,9 +152,10 @@ class LinkedList {
         }
 
         current = this.contains(val=target, idx=null)
-        if (current) {
+        if (current !== -1) {
             this.insertPosition(nodeToInsert, position, current)
         } else {
+            console.log(current, val, idx)
             return -1
         }
 
@@ -198,6 +199,8 @@ console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value
 insertTest.insert(new Node(30))
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(40), val=20, idx=null, position='after')
+console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+insertTest.insert(new Node(40), val=5000, idx=null, position='after')
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
 insertTest.insert(new Node(50), val=20, idx=null, position='before')
 console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
