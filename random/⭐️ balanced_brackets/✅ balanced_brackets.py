@@ -9,13 +9,15 @@ def balancedBrackets(string):
     }
     stack = []
 
+    # Logic
     for char in string:
         if char in openingBrackets:
             stack.append(char)
         elif char in closingBrackets:
+            # Edge Case
             if len(stack) ==  0:
                 return False
-        
+            # Matching bracket check
             if stack[-1] == matchingBrackets[char]:
                 stack.pop()
 			else:
