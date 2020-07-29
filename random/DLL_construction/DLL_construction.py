@@ -1,12 +1,12 @@
-# This is an input class. Do not edit.
+# CLASSES
+## - 1 - Node
 class Node:
     def __init__(self, value):
         self.value = value
         self.prev = None
         self.next = None
 
-
-# Feel free to add new properties and methods to the class.
+## - 2 - DLL
 class DoublyLinkedList:
     def __init__(self):
         self.head = None
