@@ -17,6 +17,12 @@ class LinkedList {
     }
 }
 
+// EXPORTS
+module.exports = {
+    Node,
+    LinkedList
+}
+
 // PROTOTYPES
 // A) Generic Methods
 // A1 - Contains
@@ -191,50 +197,50 @@ class LinkedList {
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
 // -- *** TESTS *** -- //
-// Initialization
-let insertTest = new LinkedList()
 
-// Generic Insert
-insertTest.insert(new Node(10))
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(20))
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(30))
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+// let LL_TEST = new LinkedList()
 
-// Value Insert
-insertTest.insert(new Node(40), val=20, idx=null, position='after')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(40), val=5000, idx=null, position='after')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(50), val=20, idx=null, position='before')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(60), val=10, idx=null, position='before')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(70), val=60, idx=null, position='after')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(80), val=30, idx=null, position='after')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.insert(new Node(90), val=80, idx=null, position='before')
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+// // Generic Insert
+// LL_TEST.insert(new Node(10))
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(20))
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(30))
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
 
-// Index Insert
-// ... 
+// // Value Insert
+// LL_TEST.insert(new Node(40), val=20, idx=null, position='after')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(40), val=5000, idx=null, position='after')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(50), val=20, idx=null, position='before')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(60), val=10, idx=null, position='before')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(70), val=60, idx=null, position='after')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(80), val=30, idx=null, position='after')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.insert(new Node(90), val=80, idx=null, position='before')
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
 
-// SetHead & SetTail
-insertTest.setHead(new Node(100))
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.setTail(new Node(110))
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+// // Index Insert
+// // ... 
 
-// Remove
-insertTest.remove(val=50, idx=null)
-insertTest.remove(val=20, idx=null)
-insertTest.remove(val=70, idx=null)
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.remove(val=100, idx=null)
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.remove(val=110, idx=null)
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
-insertTest.remove(val=500, idx=null)
-console.log(insertTest.printList(), insertTest.head.value, insertTest.tail.value)
+// // SetHead & SetTail
+// LL_TEST.setHead(new Node(100))
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.setTail(new Node(110))
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+
+// // Remove
+// LL_TEST.remove(val=50, idx=null)
+// LL_TEST.remove(val=20, idx=null)
+// LL_TEST.remove(val=70, idx=null)
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.remove(val=100, idx=null)
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.remove(val=110, idx=null)
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
+// LL_TEST.remove(val=500, idx=null)
+// console.log(LL_TEST.printList(), LL_TEST.head.value, LL_TEST.tail.value)
