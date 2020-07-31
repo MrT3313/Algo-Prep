@@ -10,3 +10,6 @@ Goal: Complete Each Question with Javascript/Typescript & Python
     ✅ - Completed  
     🔸 - Not Started  
     ❌ - Not Completed  
+
+# Tools
+[Code Execution Analysi](http://www.pythontutor.com/visualize.html#mode=edit)
