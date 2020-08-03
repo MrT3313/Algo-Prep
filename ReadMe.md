@@ -12,4 +12,4 @@ Goal: Complete Each Question with Javascript/Typescript & Python
     ❌ - Not Completed  
 
 # Tools
-[Code Execution Analysi](http://www.pythontutor.com/visualize.html#mode=edit)
+[Code Execution Analysis](http://www.pythontutor.com/visualize.html#mode=edit)
