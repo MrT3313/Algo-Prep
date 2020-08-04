@@ -1,5 +1,5 @@
 Example:
-    [10] -> [20] -> [30] -> null
+    null <-> [10] <-> [20] <-> [30] <-> null
 
 Methods: 
     A) Generic  
@@ -11,3 +11,5 @@ Methods:
         3. [x][x] insert (nodeToInsert, val=null, idx=null, position=[before || after]) => newList || -1 
             - insertPosition(nodeToInsert, position=[before || after], current) => newList  
         4. [x][x] remove (nodeToRemove) => newList || -1 (value not found)  
+
+

@@ -191,7 +191,7 @@ module.exports = {
             prevNode.next = null
             this.tail = prevNode
         } else { prevNode.next = foundNode.next }
- 
+        return this
     }
     
 // -- *** TESTS *** -- //
