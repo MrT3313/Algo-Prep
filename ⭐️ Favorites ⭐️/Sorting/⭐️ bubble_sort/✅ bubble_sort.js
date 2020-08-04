@@ -1,6 +1,6 @@
 // BigO
-// N = length of array
-// Space: O(1) => Single Array & Single Temp Variable 
+// n = length of array
+// Space: O(1) => Single Array & Single Temp Variables 
 // Time: O(n^2) => Looping through array multiple times
 
 function bubble_sort(array, type = 'asc' ) {                                // O(n^2)
@@ -26,7 +26,7 @@ function bubble_sort(array, type = 'asc' ) {                                // O
                 throw 'Invalid Parameters'                                                  // O(1)
             }
         }
-        counter += 1                                                                    // O(1) |
+        counter += 1                                                                    // O(1) 
     }
 // Return
 return array}
