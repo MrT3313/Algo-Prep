@@ -1,4 +1,3 @@
-# LONG SOLUTION
 def groupAnagrams(words):
     # Edge Case
     if len(words) == 0:
@@ -28,16 +27,3 @@ def groupAnagrams(words):
     result.append(currentAnagramGroup)
 
     return result
-
-
-# 'SIMPLE' SOLUTION
-# def groupAnagrams(words):
-#     anagrams = {}
-#     for word in words:
-#         sortedWord = "".join(sorted(word))
-#         if sortedWord in anagrams:
-#             anagrams[sortedWord].append(word)
-#         else:
-#             anagrams[sortedWord] = [word]
-        
-#     return list(anagrams.values())
